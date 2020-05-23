@@ -3,7 +3,7 @@ node {
         git 'https://github.com/dummyrepos/spring-petclinic.git'
     }
 
-    stage('build'){
+    stage('maven'){
         sh 'mvn package'
     }
     
